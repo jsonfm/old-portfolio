@@ -1,0 +1,119 @@
+// Global styles
+@import "../Layout/styles.scss";
+
+// ------ VARIABLES -------
+$p-x-navbar: 2.5rem;
+
+
+// -------- CLASSES -------
+
+header {
+    @extend .v-center;
+    height: 90px;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background: rgba(19, 19, 19, 0.24);
+    backdrop-filter: blur(5px);
+}
+
+.navbar {
+    @extend .v-center;
+    display: flex;
+    width: 100%;
+    padding: 0 $p-x-navbar;
+}
+
+.nav-brand {
+    width: 30%;
+    height: 100%;
+    // border: 2px solid red;
+}
+
+.nav-items {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+// ----- MENU ----
+.menu-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;   
+    // border: 2px solid red; 
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after
+{
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: white;
+}
+
+.menu-button {
+    content: "";
+    // margin-top: 10px;
+}
+.menu-button::before {
+    content: "";
+    margin-top:  10px;
+}
+
+.menu-button::after {
+    content: "";
+    margin-top: -24px;
+}
+
+.menu-items{
+    display: flex;
+}
+
+.menu-check:not(checked) + .menu-items {
+    visibility: hidden;
+    display: none;
+}
+
+
+.menu-vertical {
+    flex-direction: column;
+}
+
+.menu-check:checked + .menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3rem;
+    padding-top: 3.5rem;
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 70vw;
+    background-color: rgba(18, 18, 18, .95);
+    backdrop-filter: blur(5px);
+  
+}
+
+// ----- LINKS -----
+.nav-link {
+    margin: 1.15rem 0;
+}
+.nav-link a {
+    color: white;
+    // text-transform: uppercase;
+    font-size: 1.5rem;
+    text-decoration: none;
+}

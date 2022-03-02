@@ -1,0 +1,7 @@
+@import "../Layout/styles.scss";
+
+footer {
+    @extend .v-center, .h-center;
+    min-height: 20vh;
+    display: flex;    
+}

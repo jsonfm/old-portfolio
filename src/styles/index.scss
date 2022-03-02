@@ -1,0 +1,111 @@
+.main-section {
+    min-height: 102vh;
+    margin-top: -14vh;
+}
+
+.main-section h1 {
+    font-size: 3rem;
+    // color: rgb(245, 132, 45);
+}
+
+.main-section p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: rgb(169, 168, 168);
+}
+// ----- Colorized words -----
+.gray-word {
+    color: rgb(103, 103, 103);
+}
+
+.pinky-word {
+    color: rgb(255, 25, 87);
+}
+
+p b {
+    color: white;
+}
+
+.neon-hr {
+    margin-top: 40px;
+    border: 0;
+    background-color:rgb(255, 8, 74);
+    height: 5px;
+    width: 70vw;
+}
+
+// ---- about section ---
+.about-section {
+    padding: 0 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    min-height: 90vh;
+    background: rgb(45, 45, 45);
+}
+
+.about-section .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-introduce {
+    color: orange;
+}
+
+.myself-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // margin-top: 20px;
+}
+
+.myself-image-container {
+    margin: .5rem 0;
+    // border: 2px solid;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    z-index: 0;
+}
+
+.myself-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    min-width: 320px;
+    max-width: 700px;
+}
+
+.myself-container p {
+    // text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.myself-container p a {
+    text-decoration: underline;
+    color: rgb(230, 8, 104);
+}
+
+.skills-section {
+    padding-top: 2rem;
+    min-height: 100vh;
+    background-color: rgb(105, 27, 160);
+}
+
+.skills-section h2 {
+    text-transform: uppercase;
+    margin: 2rem 0;
+    margin-bottom: 4rem;
+}

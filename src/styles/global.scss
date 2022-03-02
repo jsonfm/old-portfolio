@@ -1,0 +1,49 @@
+// --------- GLOBAL VARIABLES -------
+$font-stack: 'Arial', sans-serif;
+$primary-color: #333;
+$bg-color: rgb(18, 17, 17);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    color: white;
+    background: $bg-color;
+}
+
+// -------- GLOBAL CLASSES --------
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.v-center {
+    align-items: center;
+}
+
+.h-center {
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}

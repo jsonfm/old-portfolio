@@ -1,0 +1,19 @@
+.card-container {
+    height: 60vh;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+
+}
+
+.card-image-container {
+    border: 2px solid purple;
+    height: 40%;
+}
+
+.card-text {
+    text-align:justify;
+    padding: 15px;
+}
