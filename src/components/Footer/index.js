@@ -16,7 +16,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
                 </div>
                 <div class="media-link-container">
-                <a href="https://github.com/Hikki12" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+                <a href="https://github.com/Hikki12" target="_blank" rel="noopener noreferrer   "><BsGithub /></a>
                 </div>
             </div>
         </footer>
