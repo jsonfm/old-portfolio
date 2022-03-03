@@ -1,7 +1,36 @@
 @import "../Layout/styles.scss";
 
 footer {
-    @extend .v-center, .h-center;
     min-height: 20vh;
-    display: flex;    
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.author-container, .copyright-container, .media-links-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin: 5px 0;
+}
+
+.media-link-container a {
+    text-decoration: none;
+    color: white;
+    margin: 1px .5rem;
+}
+
+.media-link-container a svg {
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width: 768px) {
+    footer {
+        flex-direction: row;
+    }
 }

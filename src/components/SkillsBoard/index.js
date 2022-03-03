@@ -6,65 +6,64 @@ import "./styles.scss";
 
 const SkillsBoard = () => {
     return(
-        <div class="skillsboard-container">
-            
-            <div class="skills-languages">
-                <div class ="skill-card">
+        <div className="skillsboard-container">     
+            <div className="skills-languages">
+                <div className="skill-card">
                     <FaPython />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <DiJavascript1/>
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <SiGoland />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <SiArduino />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <SiPostgresql />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <FaReact />
                 </div>
             </div>
-            <div class="skills-tools mt-2">
-                <div class ="skill-card">
+            <div className="skills-tools mt-2">
+                <div className="skill-card">
                     <SiTensorflow />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <SiPytorch />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <DiDjango />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <SiMongodb />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <FaNode />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <SiPostman />
                 </div>
             </div>
-            <div class ="skills-tools mt-2">
-                <div class ="skill-card">
+            <div className="skills-tools mt-2">
+                <div className="skill-card">
                     <FaLinux />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <DiGit />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <DiDocker />
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <FaDigitalOcean/>
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <DiVisualstudio/>
                 </div>
-                <div class ="skill-card">
+                <div className="skill-card">
                     <DiHeroku />
                 </div>
             </div>

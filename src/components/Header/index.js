@@ -6,19 +6,19 @@ import "./styles.scss";
 const Header = () => {
     return(
         <header>
-            <nav class="navbar">
-                <div class="nav-brand">
-                    <div class="nav-link"><Link to="/">About</Link></div>                  
+            <nav className="navbar">
+                <div className="nav-brand">
+                    <div className="nav-link"><Link to="/">Portfolio</Link></div>                  
                 </div>
-                <div class="nav-items">
-                    <label class="menu-button-container" for="menu-check">
-                        <div class="menu-button"></div>
+                <div className="nav-items">
+                    <input id="menu-check" className="menu-check d-none" type="checkbox"/>
+                    <label className="menu-button-container" htmlFor="menu-check">
+                        <div className="menu-button"></div>
                     </label>
-                    <input id="menu-check" class="menu-check d-none" type="checkbox"/>
-                    <div class="menu-items">
-                        <div class="nav-link"><Link to="/">About</Link></div>
-                        <div class="nav-link"><Link to="/projects/">Projects</Link></div>
-                        {/* <div class="nav-link"><Link to="/resume/">Resume</Link></div> */}
+                    <div className="menu-items">
+                        <div className="nav-link"><Link to="/">About</Link></div>
+                        <div className="nav-link"><Link to="/projects/">Projects</Link></div>
+                        {/* <div className="nav-link"><Link to="/resume/">Resume</Link></div> */}
                     </div>
                 </div>
             </nav>

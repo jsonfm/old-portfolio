@@ -1,0 +1,15 @@
+.not-found-section {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-section .title {
+    font-size: 5rem;
+}
+
+.not-found-section p {
+    font-size: 2rem;
+}

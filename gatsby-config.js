@@ -1,10 +1,21 @@
 module.exports = {
-  pathPrefix: "/portfolio",
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Personal Portfolio`,
-    // siteUrl: `https://www.yourdomain.tld`
+    title: "Severus Snape",
+    titleTemplate: "%s | Profile",
+    description:
+      "Personal Portfolio",
+    url: "https://hikki12.github.io/portfolio", // No trailing slash allowed!
+    image: "./src/images/icon.png", // Path to the image placed in the 'static' folder, in the project's root directory.
+    twitterUsername: "@j5on_",
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: './src/images/icon.png',
+      }
+    },
     "gatsby-plugin-sass",
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

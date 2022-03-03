@@ -1,19 +1,37 @@
+$card-bg-color: rgb(23, 23, 23);
+$card-box-color: rgba(255, 255, 255, .2);
+
+
 .card-container {
     height: 60vh;
-    border: 2px solid;
-    border-radius: 10px;
+    // border: 2px solid;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     max-width: 320px;
+    background-color:  $card-bg-color;
+    box-shadow: 0 0 30px $card-box-color;
 
 }
 
 .card-image-container {
-    border: 2px solid purple;
+    // border: 2px solid purple;
+    border: inherit;
+    overflow: hidden;
     height: 40%;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
 }
 
 .card-text {
     text-align:justify;
     padding: 15px;
+}
+
+.truncated {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
