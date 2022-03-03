@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/",
   siteMetadata: {
     title: "Severus Snape",
-    titleTemplate: "%s | Profile",
+    titleTemplate: "%s | Portfolio",
     description:
       "Personal Portfolio",
     url: "https://hikki12.github.io/portfolio", // No trailing slash allowed!

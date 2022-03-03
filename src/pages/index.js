@@ -12,7 +12,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="About"
+        title="Home"
       />
       <section className="d-flex flex-column v-center h-center main-section">
         <h1 className="h1">Greetings,</h1>
