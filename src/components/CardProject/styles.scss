@@ -1,14 +1,13 @@
 $card-bg-color: rgb(23, 23, 23);
 $card-box-color: rgba(255, 255, 255, .2);
 
-
 .card-container {
-    height: 60vh;
-    // border: 2px solid;
+    height: 580px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 380px;
+    margin: 1.5rem 0;
     background-color:  $card-bg-color;
     box-shadow: 0 0 30px $card-box-color;
 
@@ -31,7 +30,58 @@ $card-box-color: rgba(255, 255, 255, .2);
     padding: 15px;
 }
 
+.card-text .card-title {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .truncated {
-    overflow: hidden;
-    text-overflow: ellipsis;
+    height: 190px;
+    overflow-y: scroll;
+}
+
+.card-content-container {
+    height: 60%;
+}
+
+.card-links {
+    display: flex;
+    justify-content: center;
+}
+
+.card-button {
+    box-shadow: 0 0 5px white;
+    height: 35px;
+    width: 105px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    transition: all .5 ease;
+}
+.card-button p {
+    margin-left: 5px;
+}
+
+.card-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    background: white;
+    transition: all .5 ease;
+}
+
+.card-button:hover > p {
+    color: rgb(58, 58, 58);
+}
+
+.card-button:hover > svg {
+    color:rgb(23, 23, 23);
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        margin: 1.5rem;
+    }
 }
