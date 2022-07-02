@@ -10,6 +10,7 @@ const ResumePage = () => {
         <Layout>
             <SEO
                 title="Resume"
+                description="Here is some extra info about me."
             />      
             {/* <ShootingStars/> */}
             <section class="text-white d-flex flex-column justify-content-center align-items-center it mx-3" stlye={{paddingTop: '5rem'}}>

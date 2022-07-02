@@ -10,7 +10,8 @@ const ProjectsPage = () =>{
     return(
         <Layout>
             <SEO
-                title="Projects"
+                title="Projects | Portfolio"
+                description="Here are the main projects I worked on."
             />            
             <section class="projects-section">
                 <h2 class="text-center mt-2">Here you can check some projects I've worked.</h2>
