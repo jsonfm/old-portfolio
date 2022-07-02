@@ -17,7 +17,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="Portfolio | Home"
+        title="Home | Portfolio"
         image="https://github.com/Hikki12/portfolio/blob/master/src/assets/images/me.jpeg?raw=true"
         description="This is my personal portfolio, here I put information about me, and my skills, and I show to people my work."
         url="https://hikki12.github.io/portfolio/"
