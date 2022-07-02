@@ -59,7 +59,7 @@ const projects = [
     },
     {
         "name": "Golang MJPEG server",
-        "description": "I implemented a simple MJPEG Server with Golang. I used Opencv working together and http server.",
+        "description": "I implemented a simple MJPEG Server with Golang. I used Opencv working together with a http server.",
         "image": "https://images.unsplash.com/photo-1623949556303-b0d17d198863?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "repository": "https://github.com/Hikki12/go-mjpeg-server",
     },
