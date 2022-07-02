@@ -32,7 +32,7 @@ const projects = [
     },
     {
         "name": "Sinculpa Restaurant Menu",
-        "description": "I made this project for a restaurant in my city, I used Gatsby JS and Tailwind CSS, and I implemented it in github pages.",
+        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
         "image": "https://sinculpasite.files.wordpress.com/2022/07/sinculpa.png",
         "demo": "https://hikki12.github.io/time-tracking-dashboard-challenge/"
     },
