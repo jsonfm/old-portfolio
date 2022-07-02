@@ -15,6 +15,11 @@ html, body {
     background: $bg-color;
 }
 
+
+.text-justify {
+    text-align: justify;
+}
+
 // -------- GLOBAL CLASSES --------
 .d-none {
     display: none;
@@ -28,6 +33,14 @@ html, body {
     flex-direction: column;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 .v-center {
     align-items: center;
 }
@@ -36,10 +49,51 @@ html, body {
     justify-content: center;
 }
 
+.text-white {
+    color: white;
+}
+
+.text-pink {
+    color: rgb(205, 55, 80);
+}
+
 .text-center{
     text-align: center;
 }
 
+.text-md {
+    font-size: 15px;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.text-xl {
+    font-size: 21px;
+}
+
+.text-2xl {
+    font-size: 23px;
+}
+
+.text-3xl {
+    font-size: 27px;
+}
+
+.text-4xl {
+    font-size: 30px;
+}
+
+.text-5xl {
+    font-size: 33px;
+}
+
+.text-6xl {
+    font-size: 36px;
+}
+
+/* MARGINS*/
 .mt-1 {
     margin-top: 1rem;
 }
@@ -47,3 +101,57 @@ html, body {
 .mt-2 {
     margin-top: 2rem;
 }
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mx-3 {
+    margin: 0 3rem;
+}
+
+/*Animations*/
+.pulse {
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+    width: 60px;
+    height: 60px;
+    font-weight: light;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    // background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(#ffffff, .5);
+    -webkit-animation: pulse 2s infinite;
+  }
+  .pulse-button:hover {
+    -webkit-animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+        transform: scale(.9);
+    }
+    70% {
+      box-shadow: 0 0 0 50px rgba(#e5e5e5, 0);
+    }
+      100% {
+        transform: scale(.9);
+      box-shadow: 0 0 0 0 rgba(#ffffff, 0);
+    }
+  }

@@ -2,7 +2,8 @@ $card-bg-color: rgb(23, 23, 23);
 $card-box-color: rgba(255, 255, 255, .2);
 
 .card-container {
-    height: 580px;
+    min-height: 300px;
+    max-height: 580px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -18,16 +19,20 @@ $card-box-color: rgba(255, 255, 255, .2);
     border: inherit;
     overflow: hidden;
     height: 40%;
+    border-radius: 1.1rem 1.1rem 0 0;
 }
 
 .card-image {
     width: 100%;
-    height: 100%;
+    height: 250px;
+    background:rgba(255, 255, 255, .2);
+    object-fit: cover;
 }
 
 .card-text {
     text-align:justify;
     padding: 15px;
+    line-height: 1.4;
 }
 
 .card-text .card-title {
@@ -37,17 +42,19 @@ $card-box-color: rgba(255, 255, 255, .2);
 }
 
 .truncated {
-    height: 190px;
+    min-height: 80px;
     overflow-y: scroll;
 }
 
 .card-content-container {
     height: 60%;
+    padding: 0 .5rem;
 }
 
 .card-links {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .card-button {
@@ -60,6 +67,8 @@ $card-box-color: rgba(255, 255, 255, .2);
     justify-content:center;
     align-items:center;
     transition: all .5 ease;
+    text-decoration: none;
+    color: white;
 }
 .card-button p {
     margin-left: 5px;
@@ -70,6 +79,10 @@ $card-box-color: rgba(255, 255, 255, .2);
     box-shadow: 0 0 10px white;
     background: white;
     transition: all .5 ease;
+}
+
+.card-button:focus {
+    color: white;
 }
 
 .card-button:hover > p {

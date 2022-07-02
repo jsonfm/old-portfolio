@@ -17,8 +17,8 @@ const Header = () => {
                     </label>
                     <div className="menu-items">
                         <div className="nav-link"><Link to="/">About</Link></div>
+                        <div className="nav-link"><Link to="/resume/">Resume</Link></div>
                         <div className="nav-link"><Link to="/projects/">Projects</Link></div>
-                        {/* <div className="nav-link"><Link to="/resume/">Resume</Link></div> */}
                     </div>
                 </div>
             </nav>

@@ -2,6 +2,7 @@ import React from "react";
 import { Layout } from "../components/Layout";
 import { CardProject } from "../components/CardProject";
 import { SEO } from "../components/SEO";
+import { projects } from "../api/projects"
 import "../styles/projects.scss";
 
 
@@ -17,15 +18,18 @@ const ProjectsPage = () =>{
 
                 <div class="projects-grid">
                     <div class="projects-row">
+                        {projects.map((project)=>(
                         <div class="projects-col">
-                            <CardProject />
+                            <CardProject
+                                name={project.name}
+                                description={project.description}
+                                image={project.image}
+                                repository={project.repository}
+                                demo={project.demo}
+                            />
                         </div>
-                        <div class="projects-col">
-                            <CardProject />
-                        </div>
-                        <div class="projects-col">
-                            <CardProject />
-                        </div>
+                        ))}
+
                     </div>
                 </div>
 
