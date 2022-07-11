@@ -26,7 +26,7 @@ const projects = [
     },
     {
         "name": "Gluzy site",
-        "description": "This a page prototype of a personal project I have with some friends, which consists of a medical device for measure blood glucose level on diabetic people.",
+        "description": "This is a page prototype of a personal project I have with some friends, which consists of a medical device for measure blood glucose level on diabetic people.",
         "image": "https://github.com/Hikki12/gluzy-site/blob/master/docs/images/gluzysite.png?raw=true",
         "repository": "https://github.com/Hikki12/gluzy-site",
         "demo": "https://hikki12.github.io/gluzy-site/"
