@@ -44,8 +44,8 @@ const IndexPage = () => {
           <div className="myself-info-container text-justify">
             <p>My name is Jason Macas Mora, I am passionate about the abstract, as such, I love programming. ⚡ 🥰 💻</p>
             <p>I studied electronics and telecommunications <b>engineering</b> and in the process I learned to use various tools. 📚 ⚙ 📡</p>
-            <p>Here you can check <Link class="text-white" to="/projects">my projects.</Link></p>
-            <p>Below is my skills set, but if you want to know a little more about me, <Link class="text-white" to="/resume">Click here</Link>.</p>
+            <p>Here you can check <Link class="text-orange" to="/projects">my projects.</Link></p>
+            <p>Below is my skills set, but if you want to know a little more about me, <Link class="text-pink" to="/resume">Click here</Link>.</p>
             <p>Finally I leave you my <a class="text-pink" href={`CV.pdf`} target='_blank' rel='noopener noreferrer'>CV</a> and my social networks:</p>
             <div class="media-links-container">
                 <div class="media-link-container">

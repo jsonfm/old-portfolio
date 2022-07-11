@@ -19,6 +19,26 @@ const projects = [
         "repository": "https://github.com/Hikki12/remiolab",
     },
     {
+        "name": "Sinculpa Restaurant Menu",
+        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
+        "image": "https://sinculpasite.files.wordpress.com/2022/07/sinculpa.png",
+        "demo": "https://hikki12.github.io/sinculpa/"
+    },
+    {
+        "name": "Gluzy site",
+        "description": "This a page prototype of a personal project I have with some friends, which consists of a medical device for measure blood glucose level on diabetic people.",
+        "image": "https://github.com/Hikki12/gluzy-site/blob/master/docs/images/gluzysite.png?raw=true",
+        "repository": "https://github.com/Hikki12/gluzy-site",
+        "demo": "https://hikki12.github.io/gluzy-site/"
+    },
+    {
+        "name": "React Store",
+        "description": "This is a store made with ReactJS. It uses React context, actions, and reducers. It was written on Typescript.",
+        "image": "https://github.com/Hikki12/react-store/blob/master/docs/images/reactstore.png?raw=true",
+        "repository": "https://github.com/Hikki12/react-store",
+        "demo": "https://hikki12.github.io/react-store/"
+    },
+    {
         "name": "Python Oscilloscope",
         "description": "I used to work with Arduino in some projects, so I decided to do an oscilloscope. I made it with Python and PyQt5 Framework.",
         "image": "https://github.com/Hikki12/oscilloscope-python-arduino/raw/master/screenshots/ss1.png",
@@ -31,10 +51,11 @@ const projects = [
         "repository": "https://github.com/Hikki12/remio-mockup-template",
     },
     {
-        "name": "Sinculpa Restaurant Menu",
-        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
-        "image": "https://sinculpasite.files.wordpress.com/2022/07/sinculpa.png",
-        "demo": "https://hikki12.github.io/sinculpa/"
+        "name": "Platzi Travel App",
+        "description": "A frontend project made with TailwindCSS and some JS.",
+        "image": "https://github.com/Hikki12/platzi-travel/raw/master/design/platzitravelapp.png",
+        "repository": "https://github.com/Hikki12/platzi-travel",
+        "demo": "https://hikki12.github.io/platzi-travel/",
     },
     {
         "name": "Time tracking dashboard",

@@ -49,6 +49,7 @@ html, body {
     justify-content: center;
 }
 
+// text colors
 .text-white {
     color: white;
 }
@@ -57,9 +58,15 @@ html, body {
     color: rgb(205, 55, 80);
 }
 
+.text-orange {
+    color: orange;
+}
+
 .text-center{
     text-align: center;
 }
+
+// text sizes
 
 .text-md {
     font-size: 15px;
