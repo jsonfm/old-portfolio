@@ -25,7 +25,9 @@ const IndexPage = () => {
       <section className="d-flex flex-column v-center h-center main-section">
         <h1 className="h1">Greetings,</h1>
         <p>I'm <b>J</b><b className="pinky-word">A</b><b>SON</b></p>
-        <hr className="neon-hr"/>
+        <div className="neon-hr">
+          <div className="neon-light"></div>
+        </div>
         <em className="mt-2">
           This is my personal portfolio.
         </em>

@@ -19,9 +19,23 @@ const projects = [
         "repository": "https://github.com/Hikki12/remiolab",
     },
     {
+        "name": "Movies search App",
+        "description": "An svelte App for searching movies from the omdb API.",
+        "image": "https://github.com/Hikki12/search-movies-app/blob/master/docs/images/searchmoviesapp.png?raw=true",
+        "repository": "https://github.com/Hikki12/search-movies-app",
+        "demo": "https://hikki12.github.io/search-movies-app/",
+    },
+    {
         "name": "Sinculpa Restaurant Menu",
         "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
         "image": "https://sinculpasite.files.wordpress.com/2022/07/sinculpa.png",
+        "repository": "https://github.com/Hikki12/platzi-avos-app",
+        "demo": "https://platzi-avos-app.vercel.app/"
+    },
+    {
+        "name": "Platzi Avo Store",
+        "description": "An Avocates store made with NextJS an deployed on vercel.",
+        "image": "https://static.platzi.com/media/porfilio/platziavostore_949f39e9-3d1f-4314-9e31-388ebe198a42.png",
         "demo": "https://hikki12.github.io/sinculpa/"
     },
     {
