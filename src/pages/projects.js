@@ -16,7 +16,6 @@ const ProjectsPage = () =>{
             <section class="projects-section">
                 <h2 class="text-center mt-2">Here you can check some projects I've worked.</h2>
                 <hr class="projects-hr"/>
-
                 <div class="projects-grid">
                     <div class="projects-row">
                         {projects.map((project)=>(
@@ -30,7 +29,6 @@ const ProjectsPage = () =>{
                             />
                         </div>
                         ))}
-
                     </div>
                 </div>
 

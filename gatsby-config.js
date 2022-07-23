@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
     title: "Portfolio",
-    titleTemplate: "%s | Portfolio",
+    titleTemplate: "%s",
     description:
       "Personal Portfolio",
     url: "https://hikki12.github.io/portfolio", // No trailing slash allowed!

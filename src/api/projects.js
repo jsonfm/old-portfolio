@@ -29,14 +29,15 @@ const projects = [
         "name": "Sinculpa Restaurant Menu",
         "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
         "image": "https://sinculpasite.files.wordpress.com/2022/07/sinculpa.png",
-        "repository": "https://github.com/Hikki12/platzi-avos-app",
-        "demo": "https://platzi-avos-app.vercel.app/"
+        "repository": "https://github.com/Hikki12/sinculpa",
+        "demo": "https://hikki12.github.io/sinculpa/"
     },
     {
         "name": "Platzi Avo Store",
         "description": "An Avocates store made with NextJS an deployed on vercel.",
         "image": "https://static.platzi.com/media/porfilio/platziavostore_949f39e9-3d1f-4314-9e31-388ebe198a42.png",
-        "demo": "https://hikki12.github.io/sinculpa/"
+        "repository": "https://github.com/Hikki12/platzi-avos-app",
+        "demo": "https://platzi-avos-app.vercel.app/"
     },
     {
         "name": "Gluzy site",
