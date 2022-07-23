@@ -15,6 +15,32 @@ html, body {
     background: $bg-color;
 }
 
+// sizing
+.w-full {
+    width: 100%;
+}
+
+
+// cursors
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+// background
+.bg-white {
+    background: white;
+}
+
+// text-align
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
 
 .text-justify {
     text-align: justify;
@@ -41,12 +67,28 @@ html, body {
     align-items: center;
 }
 
+.self-start {
+    align-self: start;
+}
+
 .v-center {
     align-items: center;
 }
 
 .h-center {
     justify-content: center;
+}
+
+.gap-1 {
+    gap: .25rem;
+}
+
+.gap-2 {
+    gap: .50rem;
+}
+
+.gap-4 {
+    gap: 1rem;
 }
 
 // text colors
@@ -60,6 +102,18 @@ html, body {
 
 .text-orange {
     color: orange;
+}
+
+.text-orange-100 {
+    color: rgb(255, 123, 0);
+}
+
+.text-gray {
+    color: rgb(52, 52, 52);
+}
+
+.text-violet {
+    color: rgb(167, 53, 131);
 }
 
 .text-center{
@@ -100,6 +154,12 @@ html, body {
     font-size: 36px;
 }
 
+//
+
+.font-bold {
+    font-weight: bold;
+}
+
 /* MARGINS*/
 .mt-1 {
     margin-top: 1rem;
@@ -125,6 +185,29 @@ html, body {
     margin: 0 3rem;
 }
 
+.mb-1 {
+    margin-bottom: .25rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-7 {
+    margin-bottom: 1.75rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
 /*Animations*/
 .pulse {
     display: flex;

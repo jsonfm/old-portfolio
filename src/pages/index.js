@@ -44,26 +44,29 @@ const IndexPage = () => {
             <StaticImage className="profile-image" src="../assets/images/me.jpeg" alt="profile-image"/>
           </div>
           <div className="myself-info-container text-justify">
-            <p>My name is Jason Macas Mora, I am passionate about the abstract, as such, I love programming. ⚡ 🥰 💻</p>
-            <p>I studied electronics and telecommunications <b>engineering</b> and in the process I learned to use various tools. 📚 ⚙ 📡</p>
-            <p>Here you can check <Link class="text-orange" to="/projects">my projects.</Link></p>
-            <p>Below is my skills set, but if you want to know a little more about me, <Link class="text-pink" to="/resume">Click here</Link>.</p>
-            <p>Finally I leave you my <a class="text-pink" href={`CV.pdf`} target='_blank' rel='noopener noreferrer'>CV</a> and my social networks:</p>
-            <div class="media-links-container">
-                <div class="media-link-container">
-                    <a href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+            <p class="self-start mb-4 font-bold">README.md</p>
+            <h3 class="text-4xl font-bold text-center mb-2 text-orange-100">Fullstack Developer Python/React</h3>
+            <p class="mt-2">My name is Jason Macas Mora, and I work as fullstack developer. I handle programming languages like Python, Javascript, Typescript, Golang, frameworks like ReactJS, NextJS, TailwindCSS and others.</p>
+            <p>My professional goals are focused on solving problems in the most efficient way possible, following good practices and standards.</p>
+            <p class="self-start">- Here you could check some of <Link class="text-orange" to="/projects">my projects.</Link></p>
+            <p class="self-start">- If you scroll down, you could find my <b class="text-violet cursor-pointer" onClick={() => scrollTo('#skills-section')} >skillsboard</b>.</p>
+            <p class="self-start">- If you needed, check my <a class="text-pink" href={`CV.pdf`} target='_blank' rel='noopener noreferrer'>CV</a>.</p>
+            <p class="self-start">Write me at <a class="text-gray" href="https://mail.google.com/mail/?view=cm&fs=1&to=franciscomacas3@gmail.com" target="_blank" rel="noopener noreferrer">franciscomacas3@gmail.com</a> and follow me on my social networks:</p>
+            <div class="d-flex gap-4 mt-1">
+                <div class="text-2xl text-gray">
+                    <a class="text-gray text-4xl" href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
                 </div>
-                <div class="media-link-container">
-                    <a href="https://github.com/Hikki12" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+                <div class="text-2xl text-gray">
+                    <a class="text-gray text-4xl" href="https://github.com/Hikki12" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
                 </div>
-                <div class="media-link-container">
-                    <a href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
+                <div class="text-2xl text-gray">
+                    <a class="text-gray text-4xl"  href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
                 </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="skills-section d-flex flex-column justify-content-center align-items-center">
+      <section id="skills-section" className="skills-section d-flex flex-column justify-content-center align-items-center">
         <h2 className="text-center">Skills</h2>
         <SkillsBoard />
       </section>
