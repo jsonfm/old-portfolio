@@ -5,7 +5,7 @@ import "./styles.scss";
 
 const CardProject = ({name, description, image, repository, demo}) => {
     return(
-        <div className="card-container ease-out duration-300">
+        <div className="card-container">
             <div className="card-image-container">
                 <img loading="lazy" className="card-image" src={image} alt="image-project"/>
             </div>

@@ -1,5 +1,47 @@
 const projects = [
     {
+        "name": "Underwater",
+        "description": "A html landing page with cool video backgrounds related with the sea. Made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/underwater/blob/master/docs/images/underwater.png?raw=true",
+        "repository": "https://github.com/Hikki12/underwater",
+        "demo": "https://hikki12.github.io/underwater/"
+    },
+    {
+        "name": "Food.",
+        "description": "🍖 😋 A restaurant website as a landing page made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/food/blob/master/docs/images/food.png?raw=true",
+        "repository": "https://github.com/Hikki12/food",
+        "demo": "https://hikki12.github.io/food/"
+    },
+    {
+        "name": "Xypo Site.",
+        "description": "A landing page for an e-learning app called Xypo, made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/xypo-website/blob/master/docs/images/xyposite.png?raw=true",
+        "repository": "https://github.com/Hikki12/xypo-website",
+        "demo": "https://hikki12.github.io/xypo-website/"
+    },
+    {
+        "name": "Smartwatch landing Page",
+        "description": "A product responsive website made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/smartwatch-landing-page/blob/master/docs/images/smartwatch.png?raw=true",
+        "repository": "https://github.com/Hikki12/smartwatch-landing-page",
+        "demo": "https://hikki12.github.io/smartwatch-landing-page/"
+    },
+    {
+        "name": "Movies search App",
+        "description": "An svelte App for searching movies from the omdb API.",
+        "image": "https://raw.githubusercontent.com/Hikki12/search-movies-app/master/docs/images/searchmoviesapp.jpeg",
+        "repository": "https://github.com/Hikki12/search-movies-app",
+        "demo": "https://hikki12.github.io/search-movies-app/",
+    },
+    {
+        "name": "Platzi Travel App",
+        "description": "A frontend project made with TailwindCSS and some JS.",
+        "image": "https://github.com/Hikki12/platzi-travel/raw/master/design/platzitravelapp.png",
+        "repository": "https://github.com/Hikki12/platzi-travel",
+        "demo": "https://hikki12.github.io/platzi-travel/",
+    },
+    {
         "name": "CAMIE",
         "description": "I have worked in various universities as a researcher in the area of bioinformatics. CAMIE, is a project whose purpose is to find diagnostic methods for cervical cancer. I was in charge of developing their web platform.",
         "image": "https://camie-media.sfo3.digitaloceanspaces.com/media/camiess.png",
@@ -17,13 +59,6 @@ const projects = [
         "description": "I created a simple remote laboratory with python and django, open source, for everybody who wants to create them own experiments.",
         "image": "https://github.com/Hikki12/remiolab/blob/master/remiolab/static/images/remiolab.png?raw=true",
         "repository": "https://github.com/Hikki12/remiolab",
-    },
-    {
-        "name": "Movies search App",
-        "description": "An svelte App for searching movies from the omdb API.",
-        "image": "https://github.com/Hikki12/search-movies-app/blob/master/docs/images/searchmoviesapp.png?raw=true",
-        "repository": "https://github.com/Hikki12/search-movies-app",
-        "demo": "https://hikki12.github.io/search-movies-app/",
     },
     {
         "name": "Sinculpa Restaurant Menu",
@@ -64,13 +99,6 @@ const projects = [
         "description": "An example of experiment using my remio library, PyQt5 and Arduino.",
         "image": "https://github.com/Hikki12/remio-mockup-template/raw/master/docs/gui.png",
         "repository": "https://github.com/Hikki12/remio-mockup-template",
-    },
-    {
-        "name": "Platzi Travel App",
-        "description": "A frontend project made with TailwindCSS and some JS.",
-        "image": "https://github.com/Hikki12/platzi-travel/raw/master/design/platzitravelapp.png",
-        "repository": "https://github.com/Hikki12/platzi-travel",
-        "demo": "https://hikki12.github.io/platzi-travel/",
     },
     {
         "name": "Time tracking dashboard",

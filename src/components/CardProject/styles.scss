@@ -2,29 +2,27 @@ $card-bg-color: rgb(23, 23, 23);
 $card-box-color: rgba(255, 255, 255, .2);
 
 .card-container {
-    min-height: 300px;
-    max-height: 580px;
-    border-radius: 20px;
+    height: 500px;
+    border-radius: .5rem;
     display: flex;
     flex-direction: column;
     max-width: 380px;
     margin: 1.5rem 0;
     background-color:  $card-bg-color;
     box-shadow: 0 0 40px $card-box-color;
-
 }
 
 .card-image-container {
     // border: 2px solid purple;
     border: inherit;
     overflow: hidden;
-    height: 40%;
-    border-radius: 1.1rem 1.1rem 0 0;
+    height: 50%;
+    border-radius: .5rem .5rem 0 0;
 }
 
 .card-image {
     width: 100%;
-    height: 250px;
+    height: 100%;
     background:rgba(255, 255, 255, .2);
     object-fit: cover;
 }
@@ -43,11 +41,12 @@ $card-box-color: rgba(255, 255, 255, .2);
 
 .truncated {
     min-height: 80px;
+    max-height: 100px;
     overflow-y: scroll;
 }
 
 .card-content-container {
-    height: 60%;
+    height: 50%;
     padding: 0 .5rem;
 }
 
@@ -62,7 +61,7 @@ $card-box-color: rgba(255, 255, 255, .2);
     height: 35px;
     width: 105px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: .5rem;
     display: flex;
     justify-content:center;
     align-items:center;
