@@ -1,5 +1,12 @@
 const projects = [
     {
+        "name": "Fruitopia",
+        "description": "A landing page design called fruitopia which is a fruits store. It was made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/fruitopia/blob/master/docs/images/fruitopia.jpg?raw=true",
+        "repository": "https://github.com/Hikki12/fruitopia",
+        "demo": "https://hikki12.github.io/fruitopia/"
+    },
+    {
         "name": "Underwater",
         "description": "A html landing page with cool video backgrounds related with the sea. Made with HTML, CSS and JS.",
         "image": "https://github.com/Hikki12/underwater/blob/master/docs/images/underwater.png?raw=true",
