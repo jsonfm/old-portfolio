@@ -1,5 +1,19 @@
 const projects = [
     {
+        "name": "Radiance",
+        "description": "A stock images app design made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/radiance/blob/master/docs/images/radiance.jpg?raw=true",
+        "repository": "https://github.com/Hikki12/radiance",
+        "demo": "https://hikki12.github.io/radiance/"
+    },
+    {
+        "name": "Resto",
+        "description": "A restaurant landing page made with HTML, CSS and JS.",
+        "image": "https://github.com/Hikki12/resto/blob/master/docs/images/resto.jpeg?raw=true",
+        "repository": "https://github.com/Hikki12/resto",
+        "demo": "https://hikki12.github.io/resto/"
+    },
+    {
         "name": "Fruitopia",
         "description": "A landing page design called fruitopia which is a fruits store. It was made with HTML, CSS and JS.",
         "image": "https://github.com/Hikki12/fruitopia/blob/master/docs/images/fruitopia.jpg?raw=true",
@@ -21,7 +35,7 @@ const projects = [
         "demo": "https://hikki12.github.io/food/"
     },
     {
-        "name": "Xypo Site.",
+        "name": "Xypo Site",
         "description": "A landing page for an e-learning app called Xypo, made with HTML, CSS and JS.",
         "image": "https://github.com/Hikki12/xypo-website/blob/master/docs/images/xyposite.png?raw=true",
         "repository": "https://github.com/Hikki12/xypo-website",
