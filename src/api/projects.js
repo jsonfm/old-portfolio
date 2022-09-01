@@ -1,5 +1,12 @@
 const projects = [
     {
+        "name": "Nokosocial",
+        "description": "A social network frontend made with HTML, JS and CSS.",
+        "image": "https://github.com/jsonfm/nokosocial/blob/master/docs/images/nokosocial.jpeg?raw=true",
+        "repository": "https://jsonfm.github.io/nokosocial/",
+        "demo": "https://jsonfm.github.io/radiance/"
+    },
+    {
         "name": "Radiance",
         "description": "A stock images app design made with HTML, CSS and JS.",
         "image": "https://github.com/jsonfm/radiance/blob/master/docs/images/radiance.jpg?raw=true",

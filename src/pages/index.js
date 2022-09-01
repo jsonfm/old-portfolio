@@ -57,7 +57,7 @@ const IndexPage = () => {
                     <a class="text-gray text-4xl" href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
                 </div>
                 <div class="text-2xl text-gray">
-                    <a class="text-gray text-4xl" href="https://github.com/Hikki12" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+                    <a class="text-gray text-4xl" href="https://github.com/jsonfm" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
                 </div>
                 <div class="text-2xl text-gray">
                     <a class="text-gray text-4xl"  href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
