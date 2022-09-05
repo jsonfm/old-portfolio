@@ -54,9 +54,6 @@ const IndexPage = () => {
           <div className="cube"></div>
           <div className="cube"></div>
         </div>
-
-
-
       </section>
     </Layout>
   )

@@ -40,7 +40,6 @@ const ResumePage = () => {
             </section>
 
             <section className="skills">
-                {/* <h3>Skills</h3> */}
                 <SkillsBoard />
             </section>
 
