@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="author-container">
                 Coded by @jsonfm
             </div>
-            <div class="copyright-container">
-                Copyright © 2022. All rights reserved.
+            <div class="copyright-container mb-4">
+                Copyright © 2022
             </div>
             <div class="media-links-container">
                 <div class="media-link-container">

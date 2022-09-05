@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 // --------- GLOBAL VARIABLES -------
-$font-stack: 'Arial', sans-serif;
+$font-family: 'Montserrat', sans-serif;
 $primary-color: #333;
-$bg-color: rgb(18, 17, 17);
+$secondary-color: rgb(128, 0, 53);
+$bg-color: rgb(26, 26, 26);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 0.5s;
+    transition: all 100ms ease-in-out;
 }
 
 html, body {
-    font-family: $font-stack;
+    font-family: $font-family;
     color: white;
     background: $bg-color;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 // sizing
@@ -31,6 +38,14 @@ html, body {
 // background
 .bg-white {
     background: white;
+}
+
+.bg-turquoise {
+    background: rgb(24, 189, 175);
+}
+
+.bg-orange {
+    background: rgb(255, 123, 0);
 }
 
 // text-align
@@ -121,6 +136,10 @@ html, body {
     text-align: center;
 }
 
+.text-turquoise {
+    color: rgb(24, 189, 175);
+}
+
 // text sizes
 
 .text-md {
@@ -190,6 +209,10 @@ html, body {
     margin-bottom: .25rem;
 }
 
+.mb-2 {
+    margin-bottom: .5rem;
+}
+
 .mb-4 {
     margin-bottom: 1rem;
 }
@@ -208,6 +231,21 @@ html, body {
 
 .mb-8 {
     margin-bottom: 2rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.pt-4 {
+    padding-top: 1rem !important;
+}
+
+.px-4 {
+    padding: 0 1rem;
 }
 /*Animations*/
 .pulse {
@@ -256,4 +294,10 @@ html, body {
 
 .duration-300 {
     transition-duration: 300ms;
+}
+
+@media (min-width: 768px) {
+    md-flex-row {
+        flex-direction: column !important;
+    }
 }

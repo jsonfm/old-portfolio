@@ -14,24 +14,15 @@ const ProjectsPage = () =>{
                 description="Here are the main projects I worked on."
             />            
             <section class="projects-section">
-                <h2 class="text-center mt-2">Here you can check some projects I've worked.</h2>
-                <hr class="projects-hr"/>
-                <div class="projects-grid">
-                    <div class="projects-row">
-                        {projects.map((project)=>(
-                        <div class="projects-col">
-                            <CardProject
-                                name={project.name}
-                                description={project.description}
-                                image={project.image}
-                                repository={project.repository}
-                                demo={project.demo}
-                            />
-                        </div>
-                        ))}
-                    </div>
-                </div>
-
+                {projects.map((project)=>(
+                    <CardProject
+                        name={project.name}
+                        description={project.description}
+                        image={project.image}
+                        repository={project.repository}
+                        demo={project.demo}
+                    />
+                ))}
             </section>
         </Layout>
     );

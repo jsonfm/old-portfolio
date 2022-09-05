@@ -3,8 +3,8 @@ const projects = [
         "name": "Nokosocial",
         "description": "A social network frontend made with HTML, JS and CSS.",
         "image": "https://github.com/jsonfm/nokosocial/blob/master/docs/images/nokosocial.jpeg?raw=true",
-        "repository": "https://jsonfm.github.io/nokosocial/",
-        "demo": "https://jsonfm.github.io/radiance/"
+        "repository": "https://github.com/jsonfm/nokosocial",
+        "demo": "https://jsonfm.github.io/nokosocial/"
     },
     {
         "name": "Radiance",

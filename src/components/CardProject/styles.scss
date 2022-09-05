@@ -2,27 +2,25 @@ $card-bg-color: rgb(23, 23, 23);
 $card-box-color: rgba(255, 255, 255, .2);
 
 .card-container {
-    height: 500px;
-    border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    max-width: 380px;
-    margin: 1.5rem 0;
+    min-width: 200px;
+    width: 100%;
+    max-width: 400px;
     background-color:  $card-bg-color;
-    box-shadow: 0 0 40px $card-box-color;
+    position: relative;
+    transition: all .2s linear;
 }
 
 .card-image-container {
-    // border: 2px solid purple;
     border: inherit;
     overflow: hidden;
-    height: 50%;
-    border-radius: .5rem .5rem 0 0;
+    height: 100%;
 }
 
 .card-image {
     width: 100%;
-    height: 100%;
+    height: 250px;
     background:rgba(255, 255, 255, .2);
     object-fit: cover;
 }
@@ -31,29 +29,51 @@ $card-box-color: rgba(255, 255, 255, .2);
     text-align:justify;
     padding: 15px;
     line-height: 1.4;
+    transition: all .1s linear;
 }
 
 .card-text .card-title {
     width: 100%;
     margin-top: 0;
     margin-bottom: 20px;
+    transition: all .5 ease;
+    text-transform: uppercase;
+    overflow-x: scroll;
 }
 
 .truncated {
-    min-height: 80px;
-    max-height: 100px;
+    min-height: 50px;
+    max-height: 70px;
     overflow-y: scroll;
 }
 
 .card-content-container {
-    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
     padding: 0 .5rem;
+    transition: all .2s;
+    transform: scale(0);
+    height: 100%;
+}
+
+
+.card-content-container:focus,
+.card-content-container:hover,
+.card-image-container:hover + .card-content-container
+{
+    width: 100%;
+    height: 100%;
+    // visibility: visible;
+    background:rgba(17, 17, 17, 0.8);
+    transform: scale(1);
 }
 
 .card-links {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
+    margin-top: auto;
 }
 
 .card-button {
@@ -69,6 +89,7 @@ $card-box-color: rgba(255, 255, 255, .2);
     text-decoration: none;
     color: white;
 }
+
 .card-button p {
     margin-left: 5px;
 }
@@ -77,7 +98,7 @@ $card-box-color: rgba(255, 255, 255, .2);
     cursor: pointer;
     box-shadow: 0 0 10px white;
     background: white;
-    transition: all .5 ease;
+    transition: all .5s ease;
 }
 
 .card-button:focus {
@@ -90,10 +111,4 @@ $card-box-color: rgba(255, 255, 255, .2);
 
 .card-button:hover > svg {
     color:rgb(23, 23, 23);
-}
-
-@media (min-width: 768px) {
-    .card-container {
-        margin: 1.5rem;
-    }
 }

@@ -4,6 +4,12 @@ import "./styles.scss";
 
 
 const CardProject = ({name, description, image, repository, demo}) => {
+    const [displayContent, setDisplayContent] = React.useState(false);
+
+    const handleDisplay = () => {
+        setDisplayContent(!displayContent);
+    }
+
     return(
         <div className="card-container">
             <div className="card-image-container">

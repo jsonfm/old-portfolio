@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "../components/Layout";
 import { SEO } from "../components/SEO";
-import { ShootingStars } from "../components/ShootingStars";
+import { SkillsBoard } from "../components/SkillsBoard";
 import "../styles/resume.scss";
 
 
@@ -13,21 +13,37 @@ const ResumePage = () => {
                 description="Here is some extra info about me."
             />      
             {/* <ShootingStars/> */}
-            <section class="text-white d-flex flex-column justify-content-center align-items-center it mx-3" stlye={{paddingTop: '5rem'}}>
-                <div>
-                    <img class="">
+            <section className="text-white d-flex flex-column md-flex-row justify-content-center align-items-center px-4 pt-4 gap-2 info">
+                <div className="text-justify content">  
+                    <h3 className="title">About Me</h3> 
+                    <p className="mb-4">
+                        My name is Jason Francisco Macas Mora, I am from Loja, Ecuador. Here I studied electronic engineering at UTPL. My interests are close to bioinformatics and web development.
+                    </p>
+                    <a class="button-cv" href={`/CV.pdf`} target='_blank' rel='noopener noreferrer'>Download CV</a>
+                </div>  
+                <div className="data gap-2">
+                    {/* <h3>Hello</h3> */}
+                    <div className="d-flex flex-column">
+                        <h4 className="mb-2">Frontend</h4>
+                        <div className="h-bar">
+                            <div className="h-status bg-turquoise" style={{width: "70%"}}></div>
+                        </div>
+                    </div>
 
-                    </img>
-                </div>
-                <div class="text-justify" style={{maxWidth: '500px'}}>   
-                    <p>
-                        My name is Jason Francisco Macas Mora, I am from Loja, Ecuador. Here I studied electronic engineering at UTPL. I am a curious person, and I really enjoy self-taught learning. I am passionate about the various fields of knowledge, and I am interested in being able to apply my problem-solving skills in my environment.
-                    </p>
-                    <p class="mt-3">
-                        Specifically, my interests are close to bioinformatics and web development. I have worked on projects related to artificial intelligence, signal and image processing, frontend design, databases and some backend languages. This is how I have also worked in the development of IoT systems.
-                    </p>
-                </div>
+                    <div className="d-flex flex-column">
+                        <h4 className="mb-2">Backend</h4>
+                        <div className="h-bar">
+                            <div className="h-status bg-orange" style={{width: "65%"}}></div>
+                        </div>
+                    </div>
+                </div>      
             </section>
+
+            <section className="skills">
+                {/* <h3>Skills</h3> */}
+                <SkillsBoard />
+            </section>
+
         </Layout>
     )
 }
