@@ -19,7 +19,7 @@ const ResumePage = () => {
                     <p className="mb-4">
                         My name is Jason Francisco Macas Mora, I am from Loja, Ecuador. Here I studied electronic engineering at UTPL. My interests are close to bioinformatics and web development.
                     </p>
-                    <a class="button-cv" href={`/CV.pdf`} target='_blank' rel='noopener noreferrer'>Download CV</a>
+                    <a className="button-cv" href={`/CV.pdf`} target='_blank' rel='noopener noreferrer'>Download CV</a>
                 </div>  
                 <div className="data gap-2">
                     {/* <h3>Hello</h3> */}

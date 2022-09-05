@@ -15,29 +15,29 @@ const Contact = () => {
           description="This is my personal portfolio, here I put information about me, and my skills, and I show to people my work."
           url="https://jsonfm.github.io/portfolio/"
         />
-        <section class="contact">
-            <div class="data-contact">
+        <section className="contact">
+            <div className="data-contact">
                 <h3 className="mb-4">Contact me</h3>
 
                 <p>
                     I am interested in freelance opportunities.
                 </p>
 
-                <div class="media-links-container">
-                    <div class="media-link-container">
+                <div className="media-links-container">
+                    <div className="media-link-container">
                         <a href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer" className="d-flex gap-4 align-items-center"><BsInstagram /> <p>Instagram</p></a>
                     </div>
-                    <div class="media-link-container">
+                    <div className="media-link-container">
                         <a href="https://github.com/jsonfm" target="_blank" rel="noopener noreferrer" className="d-flex gap-4 align-items-center"><BsGithub /> <p>Github</p></a>
                     </div>
-                    <div class="media-link-container">
+                    <div className="media-link-container">
                         <a href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer" className="d-flex gap-4 align-items-center"><BsLinkedin /> <p>linkedin</p></a>
                         
                     </div>
                 </div>
                 
                 <p>Give me an email:</p>
-                <a class="text-orange email" href="https://mail.google.com/mail/?view=cm&fs=1&to=franciscomacas3@gmail.com" target="_blank" rel="noopener noreferrer">franciscomacas3@gmail.com</a>
+                <a className="text-orange email" href="https://mail.google.com/mail/?view=cm&fs=1&to=franciscomacas3@gmail.com" target="_blank" rel="noopener noreferrer">franciscomacas3@gmail.com</a>
             </div>
             <div className="map-container">
                 <GoogleMaps

@@ -13,7 +13,7 @@ const ProjectsPage = () =>{
                 title="Projects | Portfolio"
                 description="Here are the main projects I worked on."
             />            
-            <section class="projects-section">
+            <section className="projects-section">
                 {projects.map((project)=>(
                     <CardProject
                         name={project.name}
