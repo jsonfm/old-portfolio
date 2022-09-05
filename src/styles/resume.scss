@@ -90,3 +90,9 @@
         width: 50%;
     }
 }
+
+@media (min-width: 1360px) {
+    .info, .skills {
+        margin: 0 auto;
+    }
+}

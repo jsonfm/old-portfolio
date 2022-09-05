@@ -2,6 +2,7 @@ import React from "react";
 import { Layout } from "../components/Layout";
 import { SEO } from "../components/SEO";
 import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+import GoogleMaps from "simple-react-google-maps"
 import "../styles/contact.scss";
 
 
@@ -15,17 +16,38 @@ const Contact = () => {
           url="https://jsonfm.github.io/portfolio/"
         />
         <section class="contact">
-            <p>Follow me at:</p>
-            <div class="media-links-container">
+            <div class="data-contact">
+                <h3 className="mb-4">Contact me</h3>
+
+                <p>
+                    I am interested in freelance opportunities.
+                </p>
+
+                <div class="media-links-container">
                     <div class="media-link-container">
-                        <a href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+                        <a href="https://www.instagram.com/jasonm._/" target="_blank" rel="noopener noreferrer" className="d-flex gap-4 align-items-center"><BsInstagram /> <p>Instagram</p></a>
                     </div>
                     <div class="media-link-container">
-                        <a href="https://github.com/jsonfm" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+                        <a href="https://github.com/jsonfm" target="_blank" rel="noopener noreferrer" className="d-flex gap-4 align-items-center"><BsGithub /> <p>Github</p></a>
                     </div>
                     <div class="media-link-container">
-                        <a href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
+                        <a href="https://www.linkedin.com/in/jason-francisco-macas-mora-47b938141/" target="_blank" rel="noopener noreferrer" className="d-flex gap-4 align-items-center"><BsLinkedin /> <p>linkedin</p></a>
+                        
                     </div>
+                </div>
+                
+                <p>Give me an email:</p>
+                <a class="text-orange email" href="https://mail.google.com/mail/?view=cm&fs=1&to=franciscomacas3@gmail.com" target="_blank" rel="noopener noreferrer">franciscomacas3@gmail.com</a>
+            </div>
+            <div className="map-container">
+                <GoogleMaps
+                    apiKey={"AIzaSyA_c7KMN1Z7AHIGgXrYOLB2d1vlY6c6VFQ"}
+                    mapId={"bfcf9caeb847401d"}
+                    style={{height: "100%", minHeight: "110vh", width: "100%", zIndex: "1000"}}
+                    zoom={15}
+                    center={{lat: -3.996623, lng: -79.201539}}
+                    markers={{lat: -3.996623, lng: -79.201539}} //optional
+                />
             </div>
         </section>
         </Layout>
