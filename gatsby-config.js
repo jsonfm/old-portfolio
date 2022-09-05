@@ -9,6 +9,9 @@ module.exports = {
     image: "./src/images/icon.png", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@j5on_",
   },
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
