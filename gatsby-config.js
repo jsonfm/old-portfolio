@@ -5,7 +5,7 @@ module.exports = {
     titleTemplate: "%s",
     description:
       "Personal Portfolio",
-    url: "https://hikki12.github.io/portfolio", // No trailing slash allowed!
+    url: "https://jsonfm.github.io/portfolio", // No trailing slash allowed!
     image: "./src/images/icon.png", // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: "@j5on_",
   },

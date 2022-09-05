@@ -6,7 +6,7 @@ import GoogleMaps from "simple-react-google-maps"
 import "../styles/contact.scss";
 
 
-const Contact = () => {
+const ContactPage = () => {
     return (
         <Layout>
         <SEO
@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
         </section>
         </Layout>
-    )
+    );
 }
 
-export default Contact;
+export default ContactPage;

@@ -1,13 +1,6 @@
 import React from "react";
-import {BsFillArrowDownCircleFill} from "react-icons/bs";
-import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby"
-import { SkillsBoard } from "../components/SkillsBoard";
 import { Layout } from "../components/Layout";
 import { SEO } from "../components/SEO";
-import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
-import scrollTo from 'gatsby-plugin-smoothscroll';
-
 
 import "../styles/index.scss";
 import "../components/Footer/styles.scss";
