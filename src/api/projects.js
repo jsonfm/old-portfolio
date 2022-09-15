@@ -1,5 +1,74 @@
 const projects = [
     {
+        "name": "Sinculpa Restaurant Menu",
+        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
+        "image": "https://sinculpasite.files.wordpress.com/2022/09/sinculp.jpeg",
+        "repository": "https://github.com/jsonfm/sinculpa",
+        "demo": "https://jsonfm.github.io/sinculpa/"
+    },
+    {
+        "name": "CAMIE",
+        "description": "I have worked in various universities as a researcher in the area of bioinformatics. CAMIE, is a project whose purpose is to find diagnostic methods for cervical cancer. I was in charge of developing their web platform.",
+        "image": "https://camie-media.sfo3.digitaloceanspaces.com/media/camiess.png",
+        "demo": "https://www.camieproject.com/"
+    },
+    {
+        "name": "Food.",
+        "description": "🍖 😋 A restaurant website as a landing page made with HTML, CSS and JS.",
+        "image": "https://github.com/jsonfm/food/blob/master/docs/images/food.png?raw=true",
+        "repository": "https://github.com/jsonfm/food",
+        "demo": "https://jsonfm.github.io/food/"
+    },
+    {
+        "name": "Pokedex",
+        "description": "A Pokedex app powered with Vite, React.js, TailwindCSS and Redux.",
+        "image": "https://github.com/jsonfm/pokedex/blob/master/docs/images/pokedex.jpeg?raw=true",
+        "repository": "https://github.com/jsonfm/pokedex",
+        "demo": "https://jsonfm.github.io/pokedex/"
+    },
+    {
+        "name": "Smartwatch landing Page",
+        "description": "A product responsive website made with HTML, CSS and JS.",
+        "image": "https://github.com/jsonfm/smartwatch-landing-page/blob/master/docs/images/smartwatch.png?raw=true",
+        "repository": "https://github.com/jsonfm/smartwatch-landing-page",
+        "demo": "https://jsonfm.github.io/smartwatch-landing-page/"
+    },
+    {
+        "name": "REMIO",
+        "description": "Some time ago, I worked on the development of remote labs at my university. As a result of this work, I generated useful tools for the development of IOT devices in real time.",
+        "image": "https://jsonfm.github.io/remio/assets/images/arch-1.png",
+        "repository": "https://github.com/jsonfm/remio",
+        "demo": "https://jsonfm.github.io/remio/"
+    },
+    {
+        "name": "Xypo Site",
+        "description": "A landing page for an e-learning app called Xypo, made with HTML, CSS and JS.",
+        "image": "https://github.com/jsonfm/xypo-website/blob/master/docs/images/xyposite.png?raw=true",
+        "repository": "https://github.com/jsonfm/xypo-website",
+        "demo": "https://jsonfm.github.io/xypo-website/"
+    },
+    {
+        "name": "Platzi Avo Store",
+        "description": "An Avocates store made with NextJS an deployed on vercel.",
+        "image": "https://static.platzi.com/media/porfilio/platziavostore_949f39e9-3d1f-4314-9e31-388ebe198a42.png",
+        "repository": "https://github.com/jsonfm/platzi-avos-app",
+        "demo": "https://platzi-avos-app.vercel.app/"
+    },
+    {
+        "name": "React Store",
+        "description": "This is a store made with ReactJS. It uses React context, actions, and reducers. It was written on Typescript.",
+        "image": "https://github.com/jsonfm/react-store/blob/master/docs/images/reactstore.png?raw=true",
+        "repository": "https://github.com/jsonfm/react-store",
+        "demo": "https://jsonfm.github.io/react-store/"
+    },
+    {
+        "name": "Resto",
+        "description": "A restaurant landing page made with HTML, CSS and JS.",
+        "image": "https://github.com/jsonfm/resto/blob/master/docs/images/resto.jpeg?raw=true",
+        "repository": "https://github.com/jsonfm/resto",
+        "demo": "https://jsonfm.github.io/resto/"
+    },
+    {
         "name": "Nokosocial",
         "description": "A social network frontend made with HTML, JS and CSS.",
         "image": "https://github.com/jsonfm/nokosocial/blob/master/docs/images/nokosocial.jpeg?raw=true",
@@ -12,13 +81,6 @@ const projects = [
         "image": "https://github.com/jsonfm/radiance/blob/master/docs/images/radiance.jpg?raw=true",
         "repository": "https://github.com/jsonfm/radiance",
         "demo": "https://jsonfm.github.io/radiance/"
-    },
-    {
-        "name": "Resto",
-        "description": "A restaurant landing page made with HTML, CSS and JS.",
-        "image": "https://github.com/jsonfm/resto/blob/master/docs/images/resto.jpeg?raw=true",
-        "repository": "https://github.com/jsonfm/resto",
-        "demo": "https://jsonfm.github.io/resto/"
     },
     {
         "name": "Fruitopia",
@@ -35,25 +97,10 @@ const projects = [
         "demo": "https://jsonfm.github.io/underwater/"
     },
     {
-        "name": "Food.",
-        "description": "🍖 😋 A restaurant website as a landing page made with HTML, CSS and JS.",
-        "image": "https://github.com/jsonfm/food/blob/master/docs/images/food.png?raw=true",
-        "repository": "https://github.com/jsonfm/food",
-        "demo": "https://jsonfm.github.io/food/"
-    },
-    {
-        "name": "Xypo Site",
-        "description": "A landing page for an e-learning app called Xypo, made with HTML, CSS and JS.",
-        "image": "https://github.com/jsonfm/xypo-website/blob/master/docs/images/xyposite.png?raw=true",
-        "repository": "https://github.com/jsonfm/xypo-website",
-        "demo": "https://jsonfm.github.io/xypo-website/"
-    },
-    {
-        "name": "Smartwatch landing Page",
-        "description": "A product responsive website made with HTML, CSS and JS.",
-        "image": "https://github.com/jsonfm/smartwatch-landing-page/blob/master/docs/images/smartwatch.png?raw=true",
-        "repository": "https://github.com/jsonfm/smartwatch-landing-page",
-        "demo": "https://jsonfm.github.io/smartwatch-landing-page/"
+        "name": "REMIO-LAB",
+        "description": "I created a simple remote laboratory with python and django, open source, for everybody who wants to create them own experiments.",
+        "image": "https://github.com/jsonfm/remiolab/blob/master/remiolab/static/images/remiolab.png?raw=true",
+        "repository": "https://github.com/jsonfm/remiolab",
     },
     {
         "name": "Movies search App",
@@ -70,51 +117,11 @@ const projects = [
         "demo": "https://jsonfm.github.io/platzi-travel/",
     },
     {
-        "name": "CAMIE",
-        "description": "I have worked in various universities as a researcher in the area of bioinformatics. CAMIE, is a project whose purpose is to find diagnostic methods for cervical cancer. I was in charge of developing their web platform.",
-        "image": "https://camie-media.sfo3.digitaloceanspaces.com/media/camiess.png",
-        "demo": "https://www.camieproject.com/"
-    },
-    {
-        "name": "REMIO",
-        "description": "Some time ago, I worked on the development of remote labs at my university. As a result of this work, I generated useful tools for the development of IOT devices in real time.",
-        "image": "https://jsonfm.github.io/remio/assets/images/arch-1.png",
-        "repository": "https://github.com/jsonfm/remio",
-        "demo": "https://jsonfm.github.io/remio/"
-    },
-    {
-        "name": "REMIO-LAB",
-        "description": "I created a simple remote laboratory with python and django, open source, for everybody who wants to create them own experiments.",
-        "image": "https://github.com/jsonfm/remiolab/blob/master/remiolab/static/images/remiolab.png?raw=true",
-        "repository": "https://github.com/jsonfm/remiolab",
-    },
-    {
-        "name": "Sinculpa Restaurant Menu",
-        "description": "I made this project for a restaurant in my city, I used GatsbyJS and Tailwind CSS, and I deployed it in github pages.",
-        "image": "https://sinculpasite.files.wordpress.com/2022/07/sinculpa.png",
-        "repository": "https://github.com/jsonfm/sinculpa",
-        "demo": "https://jsonfm.github.io/sinculpa/"
-    },
-    {
-        "name": "Platzi Avo Store",
-        "description": "An Avocates store made with NextJS an deployed on vercel.",
-        "image": "https://static.platzi.com/media/porfilio/platziavostore_949f39e9-3d1f-4314-9e31-388ebe198a42.png",
-        "repository": "https://github.com/jsonfm/platzi-avos-app",
-        "demo": "https://platzi-avos-app.vercel.app/"
-    },
-    {
         "name": "Gluzy site",
         "description": "This is a page prototype of a personal project I have with some friends, which consists of a medical device for measure blood glucose level on diabetic people.",
         "image": "https://github.com/jsonfm/gluzy-site/blob/master/docs/images/gluzysite.png?raw=true",
         "repository": "https://github.com/jsonfm/gluzy-site",
         "demo": "https://jsonfm.github.io/gluzy-site/"
-    },
-    {
-        "name": "React Store",
-        "description": "This is a store made with ReactJS. It uses React context, actions, and reducers. It was written on Typescript.",
-        "image": "https://github.com/jsonfm/react-store/blob/master/docs/images/reactstore.png?raw=true",
-        "repository": "https://github.com/jsonfm/react-store",
-        "demo": "https://jsonfm.github.io/react-store/"
     },
     {
         "name": "Python Oscilloscope",
