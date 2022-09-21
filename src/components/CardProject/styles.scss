@@ -47,6 +47,23 @@ $card-box-color: rgba(255, 255, 255, .2);
     overflow-y: scroll;
 }
 
+.card-tags-container {
+    overflow-x: auto;
+    overscroll-behavior-x: auto;
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+    z-index: 30;
+    display: flex;
+    gap: 5px;
+}
+
+.card-tag {
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
 .card-content-container {
     position: absolute;
     top: 0;
@@ -55,6 +72,8 @@ $card-box-color: rgba(255, 255, 255, .2);
     transition: all .2s;
     transform: scale(0);
     height: 100%;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 
 

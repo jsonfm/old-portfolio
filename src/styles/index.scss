@@ -44,7 +44,7 @@
     border: solid 1px darken(#e35b00, 8%);
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    animation: cube 12s ease-in forwards infinite;
+    animation: cube 8s ease-in forwards infinite;
     
     &:nth-child(2n) {
         border-color: lighten(#3a3a3a, 10%);

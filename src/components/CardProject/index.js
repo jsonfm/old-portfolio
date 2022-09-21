@@ -3,7 +3,7 @@ import { BsFillEyeFill, BsGithub } from "react-icons/bs";
 import "./styles.scss";
 
 
-const CardProject = ({name, description, image, repository, demo}) => {
+const CardProject = ({name, description, image, repository, demo, tags}) => {
     const [displayContent, setDisplayContent] = React.useState(false);
 
     const handleDisplay = () => {
@@ -36,6 +36,11 @@ const CardProject = ({name, description, image, repository, demo}) => {
                     </a>
                     }
                 </div>
+            </div>
+            <div className="card-tags-container">
+                {tags && tags.map(tag =>(
+                    <div className="card-tag" style={{backgroundColor: tag.color}}>{tag.name}</div>
+                ))}
             </div>
         </div>
     )

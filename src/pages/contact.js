@@ -20,7 +20,7 @@ const ContactPage = () => {
                     <h3 className="mb-4">Contact me</h3>
 
                     <p>
-                        I am interested in freelance opportunities.
+                        I am always looking for new challenging and exciting opportunities. Following me on my media to keep track of me!
                     </p>
 
                     <div className="media-links-container">

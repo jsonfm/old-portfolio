@@ -21,6 +21,7 @@ const ProjectsPage = () =>{
                         image={project.image}
                         repository={project.repository}
                         demo={project.demo}
+                        tags={project.tags}
                     />
                 ))}
             </section>
